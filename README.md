@@ -1,6 +1,6 @@
 # 🧪 QA Project: OrangeHRM Testing Strategy & Execution
 
-This repository showcases the manual testing process, defect logging, and strategic documentation for the **OrangeHRM HR Management platform**. The primary objective is to evaluate core HR workflows, data persistence, input validation, and infrastructure constraints under real-world usage scenarios.
+This repository showcases the manual and automated testing process, defect logging, and strategic documentation for the OrangeHRM HR Management platform. The primary objective is to evaluate core HR workflows, data persistence, input validation, and infrastructure constraints under real-world usage scenarios.
 
 ---
 
@@ -29,6 +29,27 @@ I performed a comprehensive End-to-End (E2E) functional and usability analysis c
 
 ---
 
+## 🤖 Test Automation (Cypress E2E)
+
+This project includes an End-to-End (E2E) automated testing suite developed in **Cypress** using the **Page Object Model (POM)** architectural pattern.
+
+### 🧪 Automated Test Coverage
+- **Authentication & Login**: Validation of successful login flows, invalid credentials, required field constraints, and logout procedures.
+- **User Management (Admin)**: Automated user creation, search filtering, profile editing, and system permission validations.
+
+### 🛠️ Technologies & Patterns
+- **Cypress** (E2E Testing Framework)
+- **JavaScript**
+- **Page Object Model (POM)**
+- **Fixtures** (External test data management & mocks)
+
+### 🏃 How to Run the Automated Tests
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/paulagranadoqa/orangeHRM-qa-testing.git](https://github.com/paulagranadoqa/orangeHRM-qa-testing.git)
+   cd orangeHRM-qa-testing
+
 ## 📑 Documentation & Deliverables
 
 All detailed test artifacts and report summaries are linked below for review:
@@ -47,28 +68,3 @@ All detailed test artifacts and report summaries are linked below for review:
 - **Evidence Capture:** Jam.dev / Screen Recorder
 - **Environment:** Web (Google Chrome v126 / Windows 10/11)
 - **Future Automation Scope:** Cypress / JavaScript (API & E2E Automated Suites)
-
-
-
-
-
-
-
-
-
----
-
-## 🤖 Automação de Testes (Cypress)
-
-Este projeto conta com uma suíte de testes automatizados End-to-End (E2E) desenvolvida em **Cypress** com a arquitetura **Page Object Model (POM)**.
-
-### 🛠️ Tecnologias e Padrões
-* **Cypress** (E2E Testing)
-* **JavaScript**
-* **Page Object Model (POM)**
-* **Fixtures** (Massa de dados externa)
-
-### 🏃 Como executar os testes no seu computador
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
