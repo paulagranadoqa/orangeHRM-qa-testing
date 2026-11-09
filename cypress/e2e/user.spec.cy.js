@@ -7,7 +7,7 @@ describe('Orange HRM tests', () => {
 
   const selectorsList = {
     
-    sectionTitleTopBar: ".oxd-topbar-header-breadcrumb-module",
+  sectionTitleTopBar: ".oxd-topbar-header-breadcrumb-module",
   myInfoButton: "[href='/web/index.php/pim/viewMyDetails']",
 
   firstNameField: "[placeholder='First Name']",
@@ -79,6 +79,8 @@ it('User Info Update', () => {
   cy.get('button[type="submit"]').eq(0).click(); 
   
   cy.get('.oxd-toast-start').should('be.visible').and('contain.text', 'Successfully Updated');
+
+  cy.wait(2000);
 });
   
 })

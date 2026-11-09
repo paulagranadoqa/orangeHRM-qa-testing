@@ -26,5 +26,7 @@ describe('Orange HRM Login Tests', () => {
     cy.get(selectorsList.wrongCredentialAlert)
       .should('be.visible')
       .and('contain.text', 'Invalid credentials');
+
+    cy.wait(2000);
   });
 });
